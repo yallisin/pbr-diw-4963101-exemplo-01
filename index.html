@@ -18,7 +18,16 @@
             color: white;
             background-color: red;
             padding: 1rem;
-            
+
+        }
+
+
+        .container {
+            border: 2px solid grey;
+            box-shadow:.3rem .3rem .2rem .01rem greenyellow ;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
         }
 
         .item {
@@ -27,8 +36,14 @@
             padding: 1rem;
             width: 6rem;
             border-radius: .5rem;
+            width: auto;
         }
 
+        .item:hover {
+            color: #c21bf5;
+            background-color: #53e0c2;
+            cursor: cell; 
+        }
     </style>
 </head>
 
@@ -39,9 +54,17 @@
 
     <div id="primeira-div">Isto é uma div</div>
 
-    <div class="item">Isto é uma DIV.</div>
-    <div class="item">Isto é uma DIV.</div>
-    <div class="item">Isto é uma DIV.</div>
+    <div class="container">
+        <div class="item"> <img src="image.png" alt="Filme Guardiões da Galáxia"></div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+    </div>
+
+
+
 </body>
 
 </html>
